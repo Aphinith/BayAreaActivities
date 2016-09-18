@@ -43,4 +43,5 @@ textarea {
 
 #sf_image {
     width: 100%;
+    overflow: hidden;
 }
