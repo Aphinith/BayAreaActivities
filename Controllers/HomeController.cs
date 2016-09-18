@@ -15,14 +15,14 @@ namespace BayAreaActivities.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "A website to connect you with fun and exciting activities in your area!";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Please contact us at:";
 
             return View();
         }
