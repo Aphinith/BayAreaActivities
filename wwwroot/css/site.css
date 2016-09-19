@@ -33,7 +33,7 @@ textarea {
 @media screen and (max-width: 767px) {
   /* Hide captions */
   .carousel-caption {
-    display: none
+    display: none;
   }
 }
 
@@ -44,4 +44,13 @@ textarea {
 .img-responsive {
     width: 100%;
     overflow: hidden;
+}
+
+.item {
+    height: 500px;
+}
+
+.carousel-description {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
