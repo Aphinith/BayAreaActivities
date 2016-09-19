@@ -41,7 +41,7 @@ textarea {
     text-align: center;
 }
 
-#sf_image {
+.img-responsive {
     width: 100%;
     overflow: hidden;
 }
